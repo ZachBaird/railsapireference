@@ -1,24 +1,22 @@
-# README
+# Rails API Reference
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Serves as a reference for simple Rails APIs.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+* Ruby 2.7.0
+* Rails 5.2.4.4
+* Postman
 
-* System dependencies
+## How to Use
 
-* Configuration
+1. Clone the repo
+2. `cd` into `railsapireference`
+3. Run `bundle install`
+4. Run `db:migrate`
+5. Run `db:seed`
+6. Run `rake` to run the tests (only tests on Article model currently)
+7. Run `rails s` to start the server
+8. Use Postman to test endpoints
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Example endpoint: `/api/v1/articles`
